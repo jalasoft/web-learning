@@ -26,5 +26,6 @@ module.exports = {
       chunkFilename: "[id].css"
     }),
     new HtmlWebpackExcludeAssetsPlugin()
-  ]
+  ],
+  watch: true
 }
